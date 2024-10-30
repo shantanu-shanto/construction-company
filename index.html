@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Construction Co</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap 5 JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Include AOS library -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar" data-aos="fade-down">
+        <div class="container-fluid">
+          <a class="navbar-brand custom-brand" href="index.html">
+            <img src="images/conlogo.jpg" alt="Construction Company Logo" style="height: 100px;">
+            Construction Co.
+          </a>
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active custom-nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom-nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn custom-btn" type="button">Get a Quote</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section id="hero-carousel">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="1000">
+            <div class="carousel-inner">
+    
+                <!-- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url('images/cons-6.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-container">
+                        <div class="container text-center">
+                            <h2 class="animate__animated animate__fadeInDown" style="color: #fff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Building the Future</h2>
+                            
+                            <a href="services.html" class="btn btn-primary animate__animated animate__fadeInUp">Our Services</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url('images/cons-4.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-container">
+                        <div class="container text-center">
+                            <h2 class="animate__animated animate__fadeInDown" style="color: #fff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Quality That Stands</h2>
+                            
+                            <a href="projects.html" class="btn btn-success animate__animated animate__fadeInUp">View Projects</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Slide 3 -->
+                <div class="carousel-item" style="background-image: url('images/cons-1.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="carousel-container">
+                        <div class="container text-center">
+                            <h2 class="animate__animated animate__fadeInDown" style="color: #f8d210; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Built on Trust</h2>
+                            
+                            <a href="contact.html" class="btn btn-warning animate__animated animate__fadeInUp">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+    
+
+    <!-- Services Overview Section -->
+    <section id="services-overview" class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <img src="images/service1.jpg" class="card-img-bottom" alt="Service 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Construction Management</h5>
+                            <p class="card-text">Ensuring every detail meets our high standards from start to finish.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <img src="images/design-1.jpg" class="card-img-bottom" alt="Service 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Architectural Design</h5>
+                            <p class="card-text">Crafting visually compelling designs that meet your unique vision.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <img src="images/contract-1.jpg" class="card-img-bottom" alt="Service 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">General Contracting</h5>
+                            <p class="card-text">Delivering on schedule and on budget with experienced teams.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <img src="images/con-3.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Residential Complex</h5>
+                            <p class="card-text">A modern living space project tailored for comfort.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <img src="images/chub-1.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Commercial Hub</h5>
+                            <p class="card-text">A business center designed for productivity and innovation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <img src="images/cons-1.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Industrial Park</h5>
+                            <p class="card-text">Creating efficient spaces to optimize industrial operations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Choose Us</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-tools fa-2x"></i>
+                    </div>
+                    <h5>Experienced Team</h5>
+                    <p>Our team has decades of experience in managing complex projects.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-clock fa-2x"></i>
+                    </div>
+                    <h5>On-Time Completion</h5>
+                    <p>We prioritize timely completion while maintaining quality standards.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-thumbs-up fa-2x"></i>
+                    </div>
+                    <h5>Customer Satisfaction</h5>
+                    <p>Our goal is to exceed expectations and build lasting relationships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Clients Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <p class="card-text">"The construction team delivered beyond our expectations. Highly recommended!"</p>
+                            <h6 class="card-subtitle mt-3 text-muted">- John D.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <p class="card-text">"Exceptional service and attention to detail. Will work with them again."</p>
+                            <h6 class="card-subtitle mt-3 text-muted">- Sarah K.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <p class="card-text">"The project was completed on time and within budget. Excellent work!"</p>
+                            <h6 class="card-subtitle mt-3 text-muted">- Mike R.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Button Section -->
+    <section id="contact-call-to-action" class="py-5 text-center" data-aos="fade-up">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Contact us today to discuss your construction needs and receive a free quote.</p>
+            <a href="contact.html" class="btn btn-primary btn-lg">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+       <!-- Footer Section -->
+   <!-- Footer Section -->
+<footer class="footer bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Quick Links -->
+            <div class="col-md-3 mb-4" data-aos="fade-up">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-white">Home</a></li>
+                    <li><a href="about.html" class="text-white">About Us</a></li>
+                    <li><a href="services.html" class="text-white">Services</a></li>
+                    <li><a href="projects.html" class="text-white">Projects</a></li>
+                    <li><a href="contact.html" class="text-white">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <h5>Our Services</h5>
+                <ul class="list-unstyled">
+                    <li>Residential Construction</li>
+                    <li>Commercial Construction</li>
+                    <li>Renovation & Remodeling</li>
+                    <li>Project Management</li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <h5>Follow Us</h5>
+                <div class="social-icons">
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+                <h5>Contact Us</h5>
+                <p>123 Main Street, Cityville, Country</p>
+                <p>Phone: +123-456-7890</p>
+                <p>Email: contact@yourcompany.com</p>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="400">
+            <p class="mb-0">© <span id="currentYear"></span> Your Construction Company. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Include AOS library -->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
+    
+
+    <!-- Include Custom JS -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
+    
+
+
