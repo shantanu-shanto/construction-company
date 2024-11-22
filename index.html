@@ -5,15 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Construction Co</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap 5 JS Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Include AOS library -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" />
+     <!-- AOS Library for Animations -->
+     <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
@@ -114,27 +110,30 @@
         <div class="container">
             <h2 class="text-center mb-5">Our Services</h2>
             <div class="row">
-                <div class="col-md-4">
+                <!-- Service 1 -->
+                <div class="col-md-4" data-aos="fade-up">
                     <div class="card custom-card">
-                        <img src="images/service1.jpg" class="card-img-bottom" alt="Service 1">
+                        <img src="images/service1.jpg" class="card-img-bottom service-image" alt="Construction Management">
                         <div class="card-body text-center">
                             <h5 class="card-title">Construction Management</h5>
                             <p class="card-text">Ensuring every detail meets our high standards from start to finish.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- Service 2 -->
+                <div class="col-md-4" data-aos="fade-up">
                     <div class="card custom-card">
-                        <img src="images/design-1.jpg" class="card-img-bottom" alt="Service 2">
+                        <img src="images/design-1.jpg" class="card-img-bottom service-image" alt="Architectural Design">
                         <div class="card-body text-center">
                             <h5 class="card-title">Architectural Design</h5>
                             <p class="card-text">Crafting visually compelling designs that meet your unique vision.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- Service 3 -->
+                <div class="col-md-4" data-aos="fade-up">
                     <div class="card custom-card">
-                        <img src="images/contract-1.jpg" class="card-img-bottom" alt="Service 3">
+                        <img src="images/contract-1.jpg" class="card-img-bottom service-image" alt="General Contracting">
                         <div class="card-body text-center">
                             <h5 class="card-title">General Contracting</h5>
                             <p class="card-text">Delivering on schedule and on budget with experienced teams.</p>
@@ -144,6 +143,7 @@
             </div>
         </div>
     </section>
+    
 
     <!-- Projects Section -->
     <section id="projects" class="py-5 bg-light" data-aos="fade-up">
@@ -309,12 +309,25 @@
     </div>
 </footer>
 
-    <!-- jQuery and Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Full-Screen Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="imageModalLabel">Image Preview</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <img id="modalImage" src="" alt="Full-Screen View" class="img-fluid">
+        </div>
+      </div>
+    </div>
+</div>
 
-    <!-- Include AOS library -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Library for Animations -->
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
     
 
