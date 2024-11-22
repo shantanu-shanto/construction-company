@@ -38,6 +38,14 @@ body {
 .card-img-top {
     cursor: pointer;
 }
+.service-image{
+ cursor: pointer;
+
+}
+.team-image{
+ cursor: pointer;
+
+}
 /* Footer Styles */
 .footer {
     background-color: #333;
